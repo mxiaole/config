@@ -1,0 +1,7 @@
+gui:
+  # stuff relating to the UI
+  theme:
+    selectedLineBgColor:
+      - reverse
+    selectedRangeBgColor:
+      - reverse

@@ -1,9 +1,6 @@
 # config
-common tools config 
 
-
-# 跳转
-
-gd
-
-ctrl + ^  返回
+- vim with vimrc
+- nvim with lua 
+- lazygit
+- tmux 
