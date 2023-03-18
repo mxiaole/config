@@ -118,6 +118,7 @@ require('packer').startup(function()
     use 'hrsh7th/nvim-cmp'  -- 补全的插件
     use 'hrsh7th/cmp-nvim-lsp'  -- 使用lsp作为补全的来源
     use 'hrsh7th/cmp-vsnip'
+    use 'hrsh7th/vim-vsnip'
     -- 瞬间移动
     use {'ggandor/leap.nvim'}
     -- treesitter进行语法树解析
@@ -130,8 +131,6 @@ require('packer').startup(function()
     use 'lewis6991/gitsigns.nvim'
     -- todo
     use { 'ackeraa/todo.nvim' }
-    -- markdown previw
-    use{"iamcco/markdown-preview.nvim", run = function() vim.fn["mkdp#util#install"]() end }
 end)
 
 ------------------------------
@@ -345,4 +344,3 @@ require("todo").setup {
 }
 map('n', '<leader>to', ':Todo<cr>', options)
 
--- markdown preview配置
